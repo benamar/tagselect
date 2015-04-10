@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitionnal//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+	<head>
+		<title>tagselect jQuery plug-in  !</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=charset=iso-8859-1" />
+
+		<link rel="stylesheet" type="text/css" href="../css/blitzer/jquery-ui-1.9.1.custom.css"  />
+		<link rel="stylesheet" type="text/css" href="../css/bubbles.css" />
+		<link rel="stylesheet" type="text/css" href="../css/body.css"  />
+
+		<link href="css/tagmanager.css" rel="stylesheet">
+
+
+		
+		
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/tagmanager.js"></script>
+		<script type="text/javascript" src="../js/tagselect.js"></script>
+		
+	
+	
+		
+		
+	</head>
+	<body>
+		<h5>Lorem ipsum dolor sit amet</h5>
+		<input id=myinput type=text />
+                <p style="">
+                   Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Praesent sit amet libero odio.
+                   Maecenas auctor varius lorem at commodo. Praesent egestas consectetur hendrerit. Pellentesque
+                   condimentum dictum enim, scelerisque convallis erat mollis quis. Ut cursus tellus sed odio feugiat
+                   aliquam. Aenean vel orci nunc. Cras pharetra tortor a elit laoreet <a href="#">non ornare magna fermentum</a>. Fusce
+                   convallis tincidunt rhoncus. Nunc ac elit in tellus facilisis euismod. Donec vel mi urna. Aliquam in
+                   urna dolor, <a href="#">non blandit sapien</a>. Proin consequat, arcu non dignissim semper, nibh tellus condimentum
+                   turpis, vel ornare ipsum massa rhoncus eros.
+                </p>
+              <script type="text/javascript">
+       			$('#myinput').tagSelect({
+       					'prefilled':{
+       						"tagMaecenas":"Maecenas auctor varius"},
+       					'choices':{
+       						'tagpharetra':'Cras pharetra',
+       						'tagdignissim':'dignissim semper',
+       						'nibh':'nibh',
+       						'aliquam':'aliquam',
+       						'tincidunt':'tincidunt rhoncus',
+       						'Praesent ':'egestas consectetur'
+       							}
+       						});
+       		</script>
+	</body>
+</html>
